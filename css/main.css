@@ -1,0 +1,245 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 16px;
+}
+span.bcolor {
+  color: #ff9700;
+}
+header {
+  background: url(../img/bg-header.jpg) 0 0 no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.h-head {
+  padding: 26px 0;
+}
+.logo {
+  float: left;
+  background: url(../img/logo.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 149px;
+  height: 67px;
+}
+.h-advantage {
+  float: left;
+  margin-top: 13px;
+  margin-left: 11px;
+  line-height: 24px;
+}
+.h-advantage p b {
+  font-size: 18px;
+}
+.h-mail {
+  float: left;
+  margin-top: 11px;
+  margin-left: 28px;
+  padding-left: 38px;
+  line-height: 24px;
+  font-size: 24px;
+}
+.h-mail a {
+  position: relative;
+}
+.h-mail a:before {
+  position: absolute;
+  background: url(../img/i-mail.png) 0 0 no-repeat;
+  background-size: cover;
+  left: -38px;
+  top: 0px;
+  content: "";
+  width: 28px;
+  height: 28px;
+}
+.h-mail small {
+  font-size: 13px;
+}
+.h-bell {
+  float: left;
+  background: url(../img/bell.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 31px;
+  height: 32px;
+  margin-top: 11px;
+  margin-left: 44px;
+}
+.h-phone {
+  float: left;
+  margin-top: 11px;
+  margin-left: 28px;
+  padding-left: 38px;
+  line-height: 24px;
+  font-size: 24px;
+}
+.h-phone p.i-phone {
+  position: relative;
+}
+.h-phone p.i-phone:before {
+  position: absolute;
+  background: url(../img/i-phone.png) 0 0 no-repeat;
+  background-size: cover;
+  left: -38px;
+  top: 0px;
+  content: "";
+  width: 28px;
+  height: 28px;
+}
+.h-phone small {
+  font-size: 13px;
+}
+.h-call {
+  float: right;
+  margin-top: 6px;
+  font-size: 16px;
+}
+.h-call a {
+  position: relative;
+  padding: 12px;
+  border: 1px solid #ff9700;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  color: #ff9700;
+}
+.h-call small {
+  font-size: 13px;
+  line-height: 24px;
+}
+.h-line {
+  background: #ff9700;
+  opacity: .6;
+  width: 100%;
+  height: 1px;
+}
+.h-body {
+  position: relative;
+  padding: 50px 0 88px;
+}
+.h-body h1 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-weight: 800;
+}
+.h-body h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+.h-subtitle {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 300;
+}
+.h-services li {
+  text-align: center;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 18px;
+}
+.h-services a {
+  border-bottom: 1px dashed #fff;
+}
+.services-tite {
+  margin: 0 auto;
+  background: url(../img/h-services.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 80px;
+}
+.services-tite h5 {
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  font-weight: 700;
+  color: #000;
+}
+.h-scroll {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 48px;
+}
+.h-scroll a {
+  background: url(../img/h-scroll.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 33px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.calculation {
+  padding: 53px 0 57px;
+  font-weight: 300;
+  line-height: normal;
+}
+.calculation h2 {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.calculation h2 span {
+  font-weight: 300;
+}
+.c-subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  width: 520px;
+  margin-bottom: 37px;
+}
+.c-calculator {
+  margin: 0 68px;
+  border: 5px solid #ff9700;
+  padding: 34px 44px 40px;
+  overflow: hidden;
+}
+.f-category {
+  width: 600px;
+  float: left;
+}
+.category-block + .category-block {
+  border-top: 1px dashed #d5d5d5;
+}
+.f-number {
+  color: #b8b8b8;
+  border: 1px solid #ff9700;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  padding: 18px;
+  font-size: 24px;
+  float: left;
+}
+.f-radio {
+  float: right;
+}
+.f-city {
+  margin-left: 46px;
+  width: 293px;
+  float: right;
+}
+input[list="category"],
+input[type="text"] {
+  width: 100%;
+}
+.category-block-1 {
+  padding: 20px 0;
+}
+.f-additional {
+  float: right;
+}

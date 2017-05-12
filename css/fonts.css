@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: "PFAgoraSlabPro-Black";
+    src: url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.eot");
+    src: url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.woff") format("woff"),
+    url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
